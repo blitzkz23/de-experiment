@@ -6,12 +6,12 @@ import s3fs
 
 def run_twitter_etl():
     
-    # Twitter API credentials
-    bearer_token = "AAAAAAAAAAAAAAAAAAAAAAf1jwEAAAAAQBido%2BDdSaG63Juo%2Ba0%2FxhV%2BHLE%3D1iiyYrgEWNdrufvoZ6JujZnVtGSk3PNWQvuXvD3Da5qEOIHHMA"
-    access_key = "U8dxRixLB4hnsmK6ETUIuyj6o"
-    access_secret = "q0wCMs8CeK2QDFbTgwHPjSSGYrkfYmQm2glJqK4c0aMZejIMgc"
-    consumer_key = "432387030-IFGBvr1ICNDPJLcKd9JUnOlnjtXErwTASOcIFuJI"
-    consumer_secret = "H9FaUWWADbDmGpK6XNe8xd6CHufkV1aE76nZEKWgBvCZJ"
+    # Twitter API credentials, replace with your own credentials
+    bearer_token = "xxx"
+    access_key = "xxx"
+    access_secret = "xxx"
+    consumer_key = "xxx"
+    consumer_secret = "xxx"
 
     # Authenticate to Twitter [more about tweepy: https://docs.tweepy.org/en/stable/]
     auth = tweepy.OAuthHandler(access_key, access_secret)

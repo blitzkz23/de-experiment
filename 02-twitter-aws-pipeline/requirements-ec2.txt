@@ -1,0 +1,7 @@
+# Install this manually on the ec2 instance:
+1. sudo apt-get update
+2. sudo apt-get install python-pip
+3. sudo pip install apache-airflow
+4. sudo pip install pandas
+5. sudo pip install s3fs
+6. sudo pip install tweepy

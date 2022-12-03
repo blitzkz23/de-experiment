@@ -48,4 +48,7 @@ def run_twitter_etl():
         
     # Create a dataframe from the tweets, and save it as a csv file    
     df = pd.DataFrame(tweet_list)
+    
+    # TODO: Save the dataframe to S3/GCS
     df.to_csv("mumei_twitter_data.csv")
+    
